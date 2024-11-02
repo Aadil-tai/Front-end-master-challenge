@@ -41,6 +41,9 @@
         margin: auto;
         border-radius: 20px;
       }
+      .content {
+        margin-top: 20px;
+      }
       .qr {
         width: 288px;
         height: 288px;
@@ -57,8 +60,8 @@
         font-size: 22px;
         line-height: 120%;
         text-align: center;
-        margin: 25px;
         color: #1f314f;
+        margin: 30px 25px 16px 25px;
       }
       .h6 {
         position: relative;
@@ -68,6 +71,31 @@
         margin: 0px 40px;
         letter-spacing: 0.2px;
         color: #68778d;
+      }
+      @media (max-width: 320px) {
+        .container {
+          height: 450px;
+          width: 280px;
+          border-radius: 15px;
+        }
+        .content {
+          margin-top: 20px;
+        }
+        .qr {
+          width: 250px;
+          height: 250px;
+          top: 16px;
+        }
+
+        .h1 {
+          font-size: 20px;
+          margin: 30px 25px 16px 25px;
+        }
+
+        .h6 {
+          font-size: 12px;
+          margin: 0px 20px;
+        }
       }
     </style>
   </head>
